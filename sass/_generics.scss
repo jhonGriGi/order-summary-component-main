@@ -16,8 +16,52 @@ body {
 main {
     margin-top: 3.5em;
     width: 80%;
-    border: 2px solid red;
     height: 80%;
     border-radius: 1.2em;
     overflow: hidden;
+    background: var(--Verypaleblue);
+}
+
+@media screen and (width: 540px) {
+    main {
+        width: 60%;
+    }
+}
+
+@media screen and (width: 768px) {
+    main {
+        width: 60%;
+    }
+}
+
+@media screen and (width: 1024px) {
+    body {
+        background-image: url("../images/pattern-background-desktop.svg");
+    }
+
+    main {
+        width: 60%;
+    }
+}
+
+@media screen and (width: 1280px) {
+    body {
+        background-image: url("../images/pattern-background-desktop.svg");
+    }
+
+    main {
+        margin-bottom: 2em;
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    body {
+        background-image: url("../images/pattern-background-desktop.svg");
+    }
+    
+    main {
+        width: 30%;
+        margin-bottom: 2em;
+    }
 }

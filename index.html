@@ -6,6 +6,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,24 +18,39 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="static/css/styles.css" />
-    <title>Document</title>
+    <title>order-summary-component-main</title>
   </head>
   <body>
     <main>
-      <header class="header">
+      <header class="header" role="header">
         <img
           class="header__img"
           src="images/illustration-hero.svg"
           alt="illustration-hero"
         />
-        <h1 class="header__h1">Order Summary</h1>
-        <p class="header__p">
+      </header>
+      <section role="first-section">
+        <h1 class="section__h1">Order Summary</h1>
+        <p class="section__p">
           You can now listen to millions of songs, audiobooks, and podcasts on
           any device anywhere you like!
         </p>
-      </header>
-      <section></section>
-      <footer></footer>
+      </section>
+      <section class="section2" role="second-section">
+        <img
+          class="section2__img"
+          src="images/icon-music.svg"
+          alt="icon-music"
+        />
+        <p class="section2__p">
+          <strong>Annual Plan</strong> $59.99/year
+        </p>
+        <a href="#" class="section2__a">Change</a>
+      </section>
+      <footer class="footer" role="footer">
+        <button class="footer__button">Proceed to Payment</button>
+        <a href="#" class="footer__a">Cancel Order</a>
+      </footer>
     </main>
   </body>
 </html>
