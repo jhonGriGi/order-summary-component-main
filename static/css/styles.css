@@ -1,0 +1,46 @@
+/** @format */
+/** @format */
+:root {
+  --PaleBlue: hsl(225, 100%, 94%);
+  --BrightBlue: hsl(245, 75%, 52%);
+  --Verypaleblue: hsl(225, 100%, 98%);
+  --Desaturatedblue: hsl(224, 23%, 55%);
+  --Darkblue: hsl(223, 47%, 23%);
+}
+
+html {
+  font-family: "Red Hat Display", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--PaleBlue);
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  margin-top: 3.5em;
+  width: 80%;
+  border: 2px solid red;
+  height: 80%;
+  border-radius: 1.2em;
+  overflow: hidden;
+}
+
+.header__img {
+  width: 100%;
+  height: 25%;
+}
+
+.header__h1 {
+  color: var(--Darkblue);
+  text-align: center;
+  font-size: 1.2em;
+}
+
+/*# sourceMappingURL=styles.css.map */
